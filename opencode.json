@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "watcher": {
+    "ignore": [
+      "RuView-main/**",
+      "VoiceStudio-main/**",
+      "**/target/**",
+      "**/node_modules/**",
+      "llmfit-v1*/**"
+    ]
+  }
+}

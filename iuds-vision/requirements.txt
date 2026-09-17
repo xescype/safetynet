@@ -1,0 +1,12 @@
+# iuds-vision — Python 3.14 (C:\Users\yilma\AppData\Local\Python\bin\python3.14.exe)
+# Faz 1 iskelet: YOLOv8n (CPU) + ByteTrack + buffalo_s + core POST.
+# Faz 2'de cu'lu torch çıkınca torch+torchvision CUDA'ya geçecek.
+ultralytics==8.4.152
+lap==0.5.13  # ByteTrack bağımlılığı (ultralytics otomatik kurar)
+insightface==2.0
+torch==2.14.0
+torchvision==0.29.0
+opencv-python==4.13.0.92
+numpy==2.4.2
+onnxruntime==1.24.1
+requests==2.32.5

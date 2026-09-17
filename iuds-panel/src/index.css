@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* IUDS telefon paneli — tailwind kurulumu 18:00 sonrası:
+   npm i -D tailwindcss postcss autoprefixer ; npx tailwindcss init -p
+   (config dosyaları hazır: tailwind.config.js + postcss.config.js) */
