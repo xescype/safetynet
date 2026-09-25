@@ -1,5 +1,33 @@
+# --- Derleme / paket çıktıları ---
 target/
 node_modules/
 __pycache__/
 *.pyc
 .DS_Store
+
+# --- Dış projeler: bizim kodumuz değil ---
+# core bunlarla dosya üzerinden değil, ağ üzerinden konuşur:
+# RuView -> MQTT, VoiceStudio -> HTTP. Diskte kalırlar, git'e girmezler.
+RuView-main/
+VoiceStudio-main/
+animejs/
+
+# --- Tanıtım / video çıktıları (kod değil) ---
+brag-output*/
+
+# --- İkili dosyalar ve model ağırlıkları ---
+# Ağırlıklar repo'ya konmaz; indirme komutuyla gelir.
+*.exe
+*.pt
+*.onnx
+nothandwrittencode/llmfit-*/
+
+# --- Çalışma anında oluşan dosyalar ---
+# iuds.db: core her açılışta SCHEMA ile kendisi oluşturur.
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+# TTS çıktıları: greetings/<visit_id>.wav
+greetings/
+*.wav
