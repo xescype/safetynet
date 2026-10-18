@@ -1,12 +1,11 @@
+<p align="center"><img src="assets/banner.svg" alt="safetynet: bir kapı, ona üç açıdan bakan kameralar ve nefes alan radar dalgaları; Fide, sed cui vide" width="100%"></p>
+
 # safetynet
 
 aile apartmanının girişi için gizli, çok açılı bir kapı sistemi.
 kapıyı iki şey birlikte açar: radar orada biri olduğunu söyler, kameralar yüzü üç ayrı açıdan tanır.
 biri eksikse kapı kapalı kalır.
 şüpheli bir şey olursa sistem kendi başına karar vermez: ev sahibinin telefonuna haber verir, karar insanda kalır.
-
-*Natura non facit saltus*
-Doğa sıçrama yapmaz.
 
 ## nasıl çalışır
 
