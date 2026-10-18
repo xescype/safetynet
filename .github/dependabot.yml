@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "cargo"
+    directory: "/handwritten/iuds-core"
+    schedule:
+      interval: "weekly"
+    groups:
+      bagimliliklar:
+        patterns: ["*"]
